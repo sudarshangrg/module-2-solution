@@ -1,0 +1,107 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.chicken{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    padding-left:  10px; 
+   
+}
+#chicken_t{
+    text-align: center;
+    border: 1px solid black;
+    background-color: pink;
+    width: 30%;
+	margin-left: 69.8%;
+}
+
+.beef{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    padding-left:  10px; 
+}
+#beef_t{
+    text-align: center;
+    border: 1px solid black;
+    background-color: pink;
+    width: 30%;
+	margin-left: 69.8%;
+}
+.sushi{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    padding-left:  10px; 
+
+}
+#sushi_t{
+    text-align: center;
+    border: 1px solid black;
+    background-color: pink;
+    width: 30%;
+	margin-left: 69.8%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .chicken{
+        width: 45%;
+
+    }
+    .beef{
+        width: 45%;
+    }
+    .sushi{
+        width: auto;
+        margin: 15px;
+        /* padding: 5px; */
+    }
+
+}
+
+
+@media (max-width: 767px){
+    .wrapper{
+        display: block;
+        margin: 10px;
+        padding: 5px;
+        width: 90%%;
+    }
+    .chicken{
+        width: 100%;
+        margin: 2px;
+    }
+    .beef{
+        width: 100%;
+        margin: 2px;
+    }
+    .sushi{
+        width: 100%;
+        margin: 2px;
+
+    }
+
+}
